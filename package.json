@@ -1,0 +1,23 @@
+{
+  "name": "foodboard",
+  "version": "1.0.0",
+  "description": "Resturant Menu App",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "Food",
+    "Menu"
+  ],
+  "author": "Faham",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
